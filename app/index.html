@@ -1,0 +1,278 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fondamix Master</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/bower_components/foundation-sites/assets/foundation.scss" />
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.css" />
+    <link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/dropzone/dist/min/dropzone.min.css" />
+    <link rel="stylesheet" href="/bower_components/magnific-popup/dist/magnific-popup.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/Montserrat-Hairline.css" />
+    <link rel="stylesheet" href="styles/themify-icons.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/topbar.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/off-canvas.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/palette.css">
+    <link rel="stylesheet" href="styles/auto-complete.css">
+    <link rel="stylesheet" href="/bower_components/dropzone/dist/dropzone.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/paceloader/pace.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- End of preloader -->
+<div class="off-canvas-wrapper over-flow-hidden">
+    <div class="off-canvas-wrapper-inner " data-off-canvas-wrapper>
+        <!-- right sidebar wrapper -->
+        <div class="inner-wrap">
+            <!-- Right sidemenu -->
+            <div id="skin-select">
+                <!--      Toggle sidemenu icon button -->
+                <a id="toggle"> </a>
+                <!--      End of Toggle sidemenu icon button -->
+                <div class="skin-part">
+                    <div id="tree-wrap">
+                        <!-- Profile -->
+                        <div class="profile"> <img alt="" class="" src="./images/yeti.svg">
+                            <h3>Fondamix <small>ADMINs</small></h3> </div>
+                            <!-- End of Profile -->
+                            <!-- Menu sidebar begin-->
+                            <div class="side-bar">
+                                <ul id="menu-showhide" class="topnav slicknav">
+                                    <li>
+                                        <a id="menu-select" class="tooltip-tip" href="index.html" title="Dashboard"> <i class="palette-Deep-Purple-700 bg ti-desktop"></i> <span>Dashboard</span> </a>
+                                    </li>
+                                    <li>
+                                        <a class="tooltip-tip" href="#"> <i class="palette-Indigo-700 bg ti-layout"></i> <span>Layout<small class="side-menu-noft">New</small></span> </a>
+                                        <ul>
+                                            <li> <a href="sidebar-fixed.html">Sidebar Fixed</a> </li>
+                                            <li> <a href="all-fixed.html">All Fixed</a> </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="tooltip-tip" href="#" title="Mail"> <i class="palette-Cyan-700 bg ti-paint-roller"></i> <span>Skin</span> </a>
+                                        <ul>
+                                            <li> <a href="blue-skin.html" title="Black Skin">Blue Skin</a> </li>
+                                            <li> <a href="white-skin.html" title="White Skin">White Skin</a> </li>
+                                            <li> <a href="purple-skin.html" title="Blue Skin">Purple Skin</a> </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="master.html"> <i class="intial palette-Blue-900 bg ti-write"></i> <span>Page Blanks&nbsp;
+                                            <small class="side-menu-noft bg-blue">master</small></span> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end of Menu sidebar  -->
+                                <!--bottom chat-->
+                                <!--  -->
+                                <!--end of bottom chat-->
+                                <ul class="bottom-list-menu">
+                                    <li>Settings <small class="ti-settings"></small> </li>
+                                    <li>Help <small class="ti-flag-alt-2"></small> </li>
+                                    <li>About Edumix <small class="ti-infinite"></small> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of Rightsidemenu -->
+                    <div class="wrap-fluid" id="paper-bg">
+                        <!-- Top Nav -->
+                        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+                            <button class="menu-icon" type="button" data-toggle></button>
+                            <div class="title-bar-title">Menu</div>
+                        </div>
+                        <div class="top-bar" id="example-menu">
+                            <div class="top-bar-left">
+                                <ul class="dropdown menu menu-profile bg-white">
+                                    <!-- PROFILE-->
+                                    <li class="bg-white"> <img alt="profile" class="admin-pic img-circle palette-Grey-900 bg" src="http://placehold.it/400x400"> </li>
+                                    <li class="bg-white"> <a class="bg-white text-gray" data-toggle="profile-dropdown"> Hi, Ben </a>
+                                        <div class="dropdown-pane dropdown-pane-nest profile-nest bottom" id="profile-dropdown" data-dropdown data-auto-focus="true">
+                                        </div>
+                                    </li>
+                                    <!-- end of PROFILE-->
+                                </ul>
+                            </div>
+                            <div class="top-bar-right">
+                                <ul class="dropdown vertical medium-horizontal menu bg-white" data-dropdown-menu>
+                                    <!-- Search | has-form wrapper -->
+                                    <li class="bg-white">
+                                        <form class="navbar-form navbar-left" role="search">
+                                            <div class="dark"></div>
+                                            <input class="input-top" type="text" placeholder="search"> </form>
+                                        </li>
+                                        <!-- End Of Search | has-form wrapper -->
+                                        <!--MESSAGE-->
+                                        <li class="bg-white"> <a class="button bg-white float-right" data-toggle="msg-dropdown"><i class="ti-agenda palette-Pink-500 text"></i>&nbsp;<span class="label edumix-msg-noft palette-Pink-500 bg">0</span></a>
+                                            <div class="dropdown-pane dropdown-pane-nest bottom" id="msg-dropdown" data-dropdown data-auto-focus="true">
+                                                <ul class="menu vertical dropdown dropdown-wrap">
+
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <!--end of MESSAGE-->
+                                        <!--NOTIFICATION-->
+                                        <li class="bg-white"> <a class="button bg-white float-right" data-toggle="notf-dropdown"><i class="ti-bell  palette-Purple-500 text"></i> <span class="label edumix-noft palette-Purple-500 bg">0</span></a>
+                                            <div class="dropdown-pane dropdown-pane-nest bottom" id="notf-dropdown" data-dropdown data-auto-focus="true">
+
+                                            </div>
+                                        </li>
+                                        <li class="bg-white"><a class="bg-white" data-toggle="offCanvas"><i class= " text-black ti-menu"></i></a></li>
+                                    </ul>
+                                    <!-- Right Nav Section -->
+                                </div>
+                            </div>
+                            <!-- end of Top Nav -->
+                            <!-- breadcrumbs -->
+                            <ul class="breadcrumbs">
+                                <li><a href="#"><span class="entypo-home"></span></a> </li>
+                                <li>Dashboard </li>
+                            </ul>
+                            <!-- end of breadcrumbs -->
+                            <!-- Container Begin -->
+                            <!-- Begin page content -->
+                            <div class="row">
+                                <div class="large-12 columns">
+                                <!--BEN LOOK HERE 5D-->
+                                    <button class="button" type="button" data-open="add_part_modal">Add Part</button>
+                                    <div class="reveal" id="add_part_modal" data-reveal>
+                                        <form action="parts/add/" method="post" data-abide novalidate>
+                                            <button class="close-button" data-close aria-label="Close modal" type="button">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <div data-abide-error class="alert callout" style="display: none;">
+                                                <p><i class="fi-alert"></i> There are some errors in your form.</p>
+                                            </div>
+                                            <div class="row">
+                                                <div class="columns">
+                                                    <h4>Add a Part to this step</h4>
+
+                                                    <div class="columns small-5">
+                                                        <label>Exisitng Parts</label>
+                                                        <small>Infrared Distance Sensor - 2</small><br>
+                                                        <small>everflow fan - 2</small><br>
+                                                        <small>nfc card - 2</small><br>
+                                                        <small>everflow fan - 0</small><br>
+                                                        <small>nfc reader - 1</small><br>
+                                                        <small>tsl2561 - 1</small><br>
+                                                    </div>
+
+                                                    <div class="columns small-7">
+
+                                                        <label>Part Name</label><input type="text" name="part_title" id="part_title" value="">
+                                                        <label>Number of Parts</label><input type="text" name="count" id="count" value="">
+                                                        <label>Notes for Project</label><textarea name="headline" id="headline" value=""></textarea>
+
+                                                        <input type="hidden" name="url" id="url" value="">
+                                                        <input type="submit" class="button large expanded">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <script type="text/javascript">
+                                            window.onload = function(){
+
+                                                new autoComplete({
+                                                    minChars: 1,
+                                                    delay: 100,
+                                                    selector: 'input[name="part_title"]',
+                                                    source: function(term, response){
+                                                        term = term.toLowerCase();
+                                                        
+                                                        
+                                                        // Current Data Structure
+
+                                                        var choices = [ "Arduino Uno", "yumo rotary encoder", "10pc 20deg .3mm v carve", "Arduino Nano", "nfc card", "ErikDs DMA Robot Board", "arduino nano ch340g", "digispark 16.5mhz", "lever arm contact switch", "small gears", "mini lipo charger", "Arduino uno clone ch340g", "arduino nano ch340g aliexpress", "china rotary encoder", "Infared Distance sensor 4-30cm ", "roller bearing 608zz", "Infrared Distance Sensor", "sm breadboard", "large gluesticks", "parallax 5 pos switch", "circular connector", "cap array", "CHARGE DR current sensor", "carbide lathe tool", "5.8ghz proximity radar sensor", "Arduino FIO SF", "thing control boards", "md breadboard", "standard wire connectors", "m6 square nuts", "Arctic silver thermal adhevise", "Arduino MEGA 2560"];
+
+
+                                                        // Future Data Structure 
+
+                                                        // var choices = [{"primary_key": "A000066","thumbnail": "https://www.arduino.cc/en/uploads/Main/A000066_iso_both.jpg","title": "Arduino Uno"},{"primary_key": "BYDNO3TC","thumbnail": "/static/images/BYDNO3TC_1.jpg","title": "yumo rotary encoder"},{"primary_key": "GUTW6YRS","thumbnail": "/static/images/GUTW6YRS_1.jpg","title": "10pc 20deg .3mm v carve"},{"primary_key": "A000068","thumbnail": "https://www.arduino.cc/en/uploads/Main/Nano.jpg","title": "Arduino Nano"},{"primary_key": "U4753KVV","thumbnail": "/static/images/U4753KVV_1.jpg","title": "nfc card"},{"primary_key": "HY3347TY","thumbnail": "/static/images/HY3347TY_1.jpg","title": "ErikDs DMA Robot Board"},{"primary_key": "G3K5IITB","thumbnail": "/static/images/G3K5IITB_1.jpg","title": "arduino nano ch340g"},{"primary_key": "XWBMAVQV","thumbnail": "/static/images/XWBMAVQV_1.jpg","title": "digispark 16.5mhz"},{"primary_key": "EGI5WOST","thumbnail": "/static/images/EGI5WOST_1.jpg","title": "lever arm contact switch"},{"primary_key": "UYQZGMIO","thumbnail": "/static/images/UYQZGMIO_1.jpg","title": "small gears"},{"primary_key": "FIHTJC7D","thumbnail": "/static/images/FIHTJC7D_1.jpg","title": "mini lipo charger"},{"primary_key": "VKPSH23M","thumbnail": "/static/images/VKPSH23M_1.jpg","title": "Arduino uno clone ch340g"},{"primary_key": "ZGMZ7HVL","thumbnail": "/static/images/ZGMZ7HVL_1.jpg","title": "arduino nano ch340g aliexpress"},{"primary_key": "QDSW65CR","thumbnail": "/static/images/QDSW65CR_1.jpg","title": "china rotary encoder"},{"primary_key": "IAP2IRVO","thumbnail": "/static/images/IAP2IRVO_1.jpg","title": "Infared Distance sensor 4-30cm "},{"primary_key": "WOTT5API","thumbnail": "/static/images/WOTT5API_1.jpg","title": "roller bearing 608zz"},{"primary_key": "3NM5RYGV","thumbnail": "/static/images/3NM5RYGV_1.jpg","title": "Infrared Distance Sensor"},{"primary_key": "OQPKAIVW","thumbnail": "/static/images/OQPKAIVW_1.jpg","title": "sm breadboard"},{"primary_key": "KFGH2JUN","thumbnail": "/static/images/KFGH2JUN_1.jpg","title": "large gluesticks"},{"primary_key": "5B4MU3IP","thumbnail": "/static/images/5B4MU3IP_1.jpg","title": "parallax 5 pos switch"},{"primary_key": "CZ4HPYB7","thumbnail": "/static/images/CZ4HPYB7_1.jpg","title": "circular connector"},{"primary_key": "MQTPSWYL","thumbnail": "/static/images/MQTPSWYL_1.jpg","title": "cap array"},{"primary_key": "B5PQTGN3","thumbnail": "/static/images/B5PQTGN3_1.jpg","title": "CHARGE DR current sensor"},{"primary_key": "LY64PXRL","thumbnail": "/static/images/LY64PXRL_1.jpg","title": "carbide lathe tool"},{"primary_key": "LQUSB2XF","thumbnail": "/static/images/LQUSB2XF_1.jpg","title": "5.8ghz proximity radar sensor"},{"primary_key": "6KU36IRR","thumbnail": "/static/images/6KU36IRR_1.jpg","title": "Arduino FIO SF"},{"primary_key": "OTJQVMRP","thumbnail": "/static/images/OTJQVMRP_1.jpg","title": "thing control boards"},{"primary_key": "BVLNQ2ZQ","thumbnail": "/static/images/BVLNQ2ZQ_1.jpg","title": "md breadboard"},{"primary_key": "L6M5S2SD","thumbnail": "/static/images/L6M5S2SD_1.jpg","title": "standard wire connectors"},{"primary_key": "KSWUUYPW","thumbnail": "/static/images/KSWUUYPW_1.jpg","title": "m6 square nuts"},{"primary_key": "2HZFPXMV","thumbnail": "/static/images/2HZFPXMV_1.jpg","title": "Arctic silver thermal adhevise"},{"primary_key": "A000067","thumbnail": "https://www.arduino.cc/en/uploads/Main/AG_Mega.jpg","title": "Arduino MEGA 2560"}];
+
+
+                                                        // [{"primary_key": "A000066","thumbnail": "https://www.arduino.cc/en/uploads/Main/A000066_iso_both.jpg","title": "Arduino Uno"}
+                                                        var matches = [];
+                                                        for (i=0; i<choices.length; i++)
+                                                            if (~choices[i].toLowerCase().indexOf(term)) matches.push(choices[i]);
+                                                        response(matches);
+                                                    }
+                                                });
+                                            };
+                                        </script>
+                                        <!--BEN LOOK HERE 5D-->
+                                    </div>
+                                    <!--End of Right Side-->
+                                </div>
+                                <footer>
+                                  
+                                </footer>
+                            </div>
+                            <!-- End of Container Begin -->
+                            <!-- Right Menu -->
+                            <div class=" bg-white off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
+                                <!-- Close button -->
+                                <button class="close-button" aria-label="Close menu" type="button" data-close> <span aria-hidden="true">&times;</span> </button>
+                                <div class="off-canvas-content" data-off-canvas-content>
+                                    <!-- Menu -->
+                                    
+                                            </div>
+                                        </div>
+                                        <!-- End of Right Menu -->
+                                    </div>
+                                    <!-- end paper bg -->
+                                </div>
+                            </div>
+                            <!-- build:js scripts/vendor.js -->
+                            <!-- bower:js -->
+                            <script src="/bower_components/modernizr/modernizr.js"></script>
+                            <script src="/bower_components/jquery/dist/jquery.js"></script>
+                            <script src="/bower_components/what-input/dist/what-input.js"></script>
+                            <script src="/bower_components/foundation-sites/dist/js/foundation.js"></script>
+                            <script src="/bower_components/waypoints/lib/noframework.waypoints.js"></script>
+                            <script src="/bower_components/slimscroll/jquery.slimscroll.js"></script>
+                            <script src="/bower_components/slimscroll/jquery.slimscroll.min.js"></script>
+                            <script src="/bower_components/slicknav/dist/jquery.slicknav.js"></script>
+                            <script src="/bower_components/paceloader/pace.js"></script>
+                            <script src="/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+                            <script src="/bower_components/identicon.js/pnglib.js"></script>
+                            <script src="/bower_components/identicon.js/identicon.js"></script>
+                            <script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+                            <!-- endbower -->
+                            <!-- endbuild -->
+                            <!-- build:js scripts/main.js -->
+                            <script src="scripts/sliding-menu.js"></script>
+                            <script src="scripts/scriptbreaker-multiple-accordion-1.js"></script>
+                            <script src="scripts/app.js"></script>
+                            <script src="scripts/foundation.app.js"></script>
+                            <!-- endbuild -->
+                        </body>
+
+                        </html>
